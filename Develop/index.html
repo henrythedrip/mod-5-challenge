@@ -28,7 +28,10 @@
     <header class="p-5 mb-4">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+        <div class="date-holder">
+          <p id="currentDay" class="lead"></p>
+        </div>
+        <button id="clearButton">Clear Schedule</button>
     </header>
     <div class="container-fluid px-5">
       <!-- Use class for "past", "present", and "future" to apply styles to the
@@ -41,32 +44,35 @@
         code is implemented.
         -->
 
+
+      <!-- we have commented out the example html because we create all the divs in js -->
+      
       <!-- Example of a past time block. The "past" class adds a gray background color. -->
-      <div id="hour-9" class="row time-block past">
+      <!-- <div id="hour-9" class="row time-block past">
         <div class="col-2 col-md-1 hour text-center py-3">9AM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <button class="btn saveBtn col-2 col-md-1" aria-label="save">
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
-      </div>
+      </div> -->
 
       <!-- Example of a present time block. The "present" class adds a red background color. -->
-      <div id="hour-10" class="row time-block present">
+      <!-- <div id="hour-10" class="row time-block present">
         <div class="col-2 col-md-1 hour text-center py-3">10AM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <button class="btn saveBtn col-2 col-md-1" aria-label="save">
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
-      </div>
+      </div> -->
 
       <!-- Example of a future time block. The "future" class adds a green background color. -->
-      <div id="hour-11" class="row time-block future">
+      <!-- <div id="hour-11" class="row time-block future">
         <div class="col-2 col-md-1 hour text-center py-3">11AM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <button class="btn saveBtn col-2 col-md-1" aria-label="save">
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
-      </div>
+      </div> -->
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
