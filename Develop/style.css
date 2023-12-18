@@ -12,13 +12,6 @@ textarea {
   padding: 10px;
 }
 
-/* TODO: here we want to horizontally center the datestring on the page */
-.date-holder {
-  border: solid black 1px;
-  display: flex;
-  align-items: center;
-}
-
 #currentDay {
   font-size: xx-large;
 }
